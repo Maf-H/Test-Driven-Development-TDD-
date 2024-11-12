@@ -1,4 +1,4 @@
-import pytest
+# import pytest
 
 def fizzbuzz(value):
 	if check_modulo(int(value), 3):
@@ -20,7 +20,7 @@ def test_returns_2_when_2_is_passed():
 	check_fizzbuzz("2", "2")
 def test_returns_fizz_when_3_is_passed():
 	check_fizzbuzz("3", "Fizz")
-def test_returns_buzz_when_4_is_passed():
+def test_returns_buzz_when_5_is_passed():
 	check_fizzbuzz('5', 'Buzz')
 def test_returns_fizz_when_6_is_passed():
 	check_fizzbuzz('6', 'Fizz')
